@@ -16,8 +16,9 @@
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent" app:layout_constraintHorizontal_bias="0.049"
-            android:layout_marginTop="16dp" android:layout_marginLeft="16dp"/>
-    <ListView
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"/>
+    <android.support.v7.widget.RecyclerView
             android:id="@+id/categoryListView"
             android:layout_width="0dp"
             android:layout_height="0dp"
